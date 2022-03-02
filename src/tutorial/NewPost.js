@@ -3,9 +3,9 @@
 import { useContext, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
-import DataContext from './context/DataContext'
+import DataContext from '../context/DataContext'
 import {format} from "date-fns";
-import api from "./api/posts";
+import api from "../api/posts";
 // import { styled } from '@mui/material/styles';
 
 // const Input = styled('input')({
